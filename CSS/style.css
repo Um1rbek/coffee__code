@@ -1,0 +1,368 @@
+li{
+    list-style: none;
+}
+
+.coffee{
+    width: 1400px;
+    border: 1px solid ;
+    margin: auto;
+
+}
+
+.coffe__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.nav__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.nav__img{
+    width: 237px;
+}
+
+.intro{
+    margin: auto;
+    
+}
+
+.intro__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/Bitmap.png);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    height: 500px;
+}
+
+.intro__h1{
+    
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+width: 500px;
+line-height: 72px;
+/* or 100% */
+
+color: #FEFCF7;
+
+
+}
+.intro__text{
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+width: 400px;
+line-height: 26px;
+/* or 162% */
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
+
+.intro__btn{
+ width: 180px;
+ height: 30px;
+ background-color: aqua;
+ color: rgb(154, 170, 184);
+ border: none;
+
+}
+
+.intro__left{
+    margin-right: 600px;
+}
+
+
+.our__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.our__all{
+    width: 350px;
+
+}
+
+.our__text{
+    /* Light and flavorful */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: auto;
+/* or 162% */
+text-align: center;
+
+color: #333D4B;
+width: 240px;
+
+
+}
+
+.our__h4{
+    /* Gran Espresso */
+
+padding: 10px 0px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+margin: auto;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #333D4B;
+
+
+}
+
+
+.our__img{
+    padding: 20px 40px;
+}
+
+.us{
+    margin: auto;
+    width: 1400px;
+    background-color: rgb(59, 59, 87);
+}
+
+.us__title{
+
+padding-top:  40px ;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+}
+
+.us__text{
+
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+width: 540px;
+margin: auto;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
+
+.us__boxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 50px 0px;
+
+}
+
+.us__box{
+
+    background-color: #0E8784;
+    width: 300px;
+    height: 360px;
+}
+
+.us__box__title{
+
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+}
+
+.us__box__text{
+
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #FEFCF7;
+width: 200px;
+margin: auto;
+
+
+}
+
+.us__img{
+    padding: 6px 100px;
+    padding-top: 30px;
+}
+
+
+.work{
+    width: 1400px;
+padding: 100px 50px;
+}
+
+
+.work__start__text{
+    /* How it works */
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+margin-left: 160px;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+color: #83888F;
+
+
+}
+
+
+.work__all__title{
+
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+
+color: #FDD6BA;
+
+
+}
+
+
+.work__all__suptitle{
+    /* Pick your coffee */
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+color: #333D4B;
+
+
+}
+
+.work__all__text{
+    /* Select from our evol */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #333D4B;
+width: 285px;
+
+
+}
+
+
+.work__all__btn{
+    width: 165px;
+    height: 30px;
+    background-color: rgb(5, 167, 148);
+    border: none;
+    color: white;
+    margin-left: 160px;
+}
+
+
+
+.work__all__in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.work__al__img{
+    margin-left: 150px;
+    width: 900px;
+    
+    
+}
+
+.footer{
+
+    width: 1400px;
+    margin-left: 50px;
+    padding-bottom: 90px ;
+    
+}
+
+
+
+.div__footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    background-color: #2C343E;
+    height: 60px;
+    margin: auto;
+}
+
+.nav__lis{
+    color: white;
+
+}
+
+.footer__img{
+    padding-left: 200px;
+}
